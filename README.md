@@ -5,7 +5,7 @@
 To spin up a new Django project called mysite
 1. Clone repository
 2. `docker-compose run web django-admin startproject mysite .`
-3. In `mysite/manage.py` replace `DATABASES =` with
+3. In `mysite/settings.py` replace `DATABASES =` with
 ```
 DATABASES = {
     'default': {
